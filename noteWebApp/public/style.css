@@ -1,0 +1,74 @@
+/* page background */
+body {
+  background-color: #f2f4f8;
+  padding: 20px;
+}
+
+/* heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* form */
+form {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+/* notes container */
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+/* notes card */
+.card {
+  background-color: white; /* black makes text invisible */
+  width: 250px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #555;
+}
+
+.time {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
