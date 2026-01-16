@@ -1,6 +1,6 @@
 const os = require( 'os'); //import OS
 
-// get os information
+// get os information 
 const platform = os.platform();
 const totalMemory = os.totalmem();
 const freeMemory = os.freemem();
